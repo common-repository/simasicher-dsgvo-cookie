@@ -1,0 +1,63 @@
+/*** Admin ***/
+
+/* General */
+.sima_container {
+
+}
+.sima_column {
+    float: left;
+    overflow: hidden;
+}
+.sima_column_left {
+	width: 65%;
+}
+.sima_column_right {
+    width: 30%;
+    margin-left: 4%;
+}
+@media screen and (max-width: 782px) {
+    .sima_column_left {
+        width: 100%;
+    }
+    .sima_column_right {
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+.settings_deleted {
+    border-left-color: #dc3232 !important;
+}
+
+/* Left */
+input[type="text"], textarea {
+    width: 100%;
+    margin: 1px !important;
+}
+.sima_input_small {
+    width: fit-content !important;
+}
+.button-primary {
+    float: right; 
+}
+.delete_settings {
+    margin-top: -34px !important;
+}
+.delete_settings input {
+    display: block !important;
+    margin-bottom: 5px !important;
+}
+.sima_texarea_small {
+    font-size: 90%;
+    margin:  4px 0 -4px !important;
+}
+
+/* Right */
+.sima_logo {
+    width: 80%;
+    margin-top: 20px;
+}
+.sima_logo_img {
+    width: 100%;
+    max-width: 300px;
+}
